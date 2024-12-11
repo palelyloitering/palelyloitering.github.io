@@ -1,0 +1,1 @@
+import{v as r}from"./Ripple.28a06732.js";import{u as i,o as m,g as s}from"./index.7e6c5690.js";function f(){let e=null;const o=s();function t(){e!==null&&(clearTimeout(e),e=null)}return i(t),m(t),{removeTimeout:t,registerTimeout(n,u){t(),r(o)===!1&&(e=setTimeout(()=>{e=null,n()},u))}}}export{f as u};
