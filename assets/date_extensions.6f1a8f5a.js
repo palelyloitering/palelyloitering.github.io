@@ -1,0 +1,1 @@
+Date.prototype.addDays=function(e){var t=new Date(this.valueOf());return t.setHours(0,0,0,0),t.setDate(t.getDate()+e),t};Date.prototype.toISODate=function(){return this.getFullYear()+"-"+("0"+(this.getMonth()+1)).slice(-2)+"-"+("0"+this.getDate()).slice(-2)};
